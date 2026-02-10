@@ -4,7 +4,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #fff0f3; /* Ніжно-рожевий */
+    background-color: #fff0f3; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     overflow: hidden;
 }
@@ -15,7 +15,9 @@ body {
 }
 
 .main-image {
-    width: 200px;
+    width: 400px; 
+    max-width: 95%; 
+    height: auto; 
     margin-bottom: 20px;
     border-radius: 15px;
 }
